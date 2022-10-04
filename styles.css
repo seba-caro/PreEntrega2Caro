@@ -80,7 +80,9 @@ section video{
     
 }
 
-
+.justificado{
+    text-align: center;
+}
 
 
 p{
