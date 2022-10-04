@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+
+.titulo {
+    color:yellow;
+    align-items: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+header {
+    background-image: url(./img/fondonegro.jpg);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border: transparent;
+    width: 100%;
+}
+
+.escudo {
+    padding: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header a {
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 15px;
+    color:yellow;
+    justify-content: space-around;
+}
+
+header a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+.portada {
+    height: 100vh;
+    background-image: url(./img/fondoeditado.png);
+    background-size:cover;
+    width: 100%;
+    height: 88vh;
+    background-size: 100% 100%;
+}
+
+.portada_texto {
+    text-align: center;
+    color: whitesmoke;
+    padding: 15px;
+}
+.video-principal{
+    margin-top: 100px;
+    display: inline-block;
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+
+main{
+    height:100%;
+    background-image: url(../img/21.jpg);
+    color: white;
+}
+
+.imagenes{
+    width: 500px;
+    height: 300px;
+    max-inline-size: 100%;
+}
+main h2{
+    font-size: 30px;
+    color: yellow;
+    padding: 10px;
+    font-weight: 200;
+
+}
+
+.tira {
+    justify-content: center;
+    text-align: center;
+    margin: 50px; 
+}
+
+section p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+main section h3{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+.titulominis{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.imagenmini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto auto;
+    height: 750px;
+    padding: 10px;
+    max-inline-size: 100%;
+}
+.piefoto{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.piefoto a{
+    text-decoration: none;
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+.noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.noticias img{
+    width: 90%;
+    height: auto;
+    margin: 30px;
+    max-inline-size: 100%;
+
+}
+
+.formulario{
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    max-height: 1000px;
+    background-image: url(./img/fondonegro.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: grid;
+}
+
+.tituloformulario{
+    font-size: 2rem;
+    text-align: center;
+}
+.infoformulario{
+    justify-content: center;
+    justify-items: center;
+    font-size: 10px;
+    display: grid;
+    align-items: center;
+
+}
+
+
+.contenedor2{
+    color: yellow;
+    background-image: url(../img/fondonegro.jpg);
+    display: flex;
+    height: 60px;
+    max-inline-size: 100%;
+}
+
+
+
+footer h2{
+    margin:auto;
+    width: 10vw;
+    font-size: 15px;
+    max-inline-size: 100%;
+
+}
+.logo{
+    width: 25px; 
+    height: 25px;
+    margin:auto auto;
+    max-inline-size: 100%;
+}
+
+.p{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 10vw;
+    font-size: 15px;
+    max-inline-size: 100%;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: yellow;
+    text-decoration: underline;
+    font-size: 15px;
+    max-inline-size: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VERSION MOBILE*/
+
+/*header y footer*/
+
+.video-principalmobile{
+    height: 900%;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.titulomobile{
+    font-size: 20px;
+    color: yellow;
+}
+.escudomobile{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 10px 10px;
+}
+
+.portadamobile{
+    height: 100vh;
+}
+.portada_textomobile{
+    font-size: 10px;
+}
+
+.navmobile{
+    font-size: 10px;
+}
+
+.contenedor2mobile{
+    color: yellow;
+    background-image: url(../img/fondonegro.jpg);
+    display: grid;
+    height: 100%;
+
+}
+
+.logomobile{
+    height: 15px;
+    width: 15px;
+    margin:auto auto;
+    max-inline-size: 100%;
+    margin-top: 5px;
+}
+
+.pmobile{
+    font-size: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.h2mobile{
+    font-size: 10px;
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.mainmobile{
+    background-image: url(./img/21.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+/*el club*/
+
+.imagenesmobile{
+    height: 100px;
+    width: 100px;
+    max-inline-size: 100%;
+    image-rendering: auto;
+    margin-left: 20px;
+}
+
+.elclubimagenesmobile{
+    font-size: 10px;
+}
+
+/* noticias**/
+
+
+.noticiasmobile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+
+.noticiasmobile img{
+    height: 100px;
+    width: 100px;
+    max-inline-size: 100%;
+    image-rendering: auto;
+    margin-left: 20px;
+
+}
+.formulariomobile{
+    margin: auto;
+    width: 90%;
+    max-width: 250px;
+    max-height: 400px;
+    background-image: url(./img/fondonegro.jpg);
+    border-radius: 5px;
+    margin-top: 3px;
+    display: grid;
+}
+
+.tituloformulariomobile{
+    font-size: 10px;
+    text-align: center;
+    padding: auto;
+}
+.infoformulariomobile{
+    justify-content: center;
+    justify-items: center;
+    font-size: 10px;
+    display: grid;
+    align-items: center;
+}
+
+.formulariomobile input{
+    height: 8px;
+}
+
+
+
+
+
+
+/* categorias y fixture*/
+
+.imagenminimobile{
+    height: auto;
+    width:100%;
+}

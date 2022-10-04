@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+/*
+.titulo {
+    color:yellow;
+    align-items: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*/
+ul {
+    list-style: none;
+}
+
+nav{
+    width: 100%;
+    background-image: url(./img/fondonegro.jpg);
+}
+.escudo {
+    padding: 15px;
+}
+
+.navbar-brand{
+    color: yellow;
+}
+
+.nav-link{
+    color: yellow;
+}
+
+.bg-image{
+background-image: url(./img/21.jpg);
+}
+
+
+.c-color{
+    color:lightcyan;
+}
+
+.f-size{
+    font-size: 1rem;
+}
+
+.f-size20p{
+    font-size: 20px;
+}
+
+.f-size15p{
+    font-size: 15px;
+}
+
+.c-negro{
+    color: black;
+}
+
+
+/*
+
+section video{
+
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    }
+*/
+    .c-blanco{
+        color: white;
+    }
+
+
+.c-amarillo{
+        color: #FFFFFF;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+        color: #FFFFFF;
+    
+}
+
+
+
+
+p{
+    margin-bottom: 0%;
+}
+
+
+
+main {
+    height:100%;
+    background-image: url(../img/21.jpg);
+    width: 100%;
+}
+
+
+
+.imagenes{
+    width: 500px;
+    height: 300px;
+    max-inline-size: 95%;
+    padding: 5px;
+}
+.hoverimagenes:hover{
+width: 700px;
+height: 500px;
+}
+
+.h1skew{
+    transform: skew(140deg);
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.transicionnav:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+    color: royalblue;
+}
+
+/*
+header nav {
+    background-image: url(./img/fondonegro.jpg);
+    justify-content: space-between;
+height: auto;
+border: transparent;
+color: white;
+}
+
+
+nav a {
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 15px;
+    color:yellow;
+    justify-content: space-around;
+}
+
+header a:hover {
+    text-decoration: underline;
+
+}
+
+
+/*portada */
+
+/*
+.portada {
+    background-image: url(./img/fondoeditado.png);
+}
+
+.portada_texto {
+    text-align: center;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+}
+/*
+.video-principal{
+    margin-top: 100px;
+    display: inline-block;
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+
+*/
+
+
+
+
+
+
+.tira {
+    justify-content: center;
+    text-align: center;
+    margin: 50px; 
+}
+
+section p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+
+main section h3{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.titulominis{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+/*
+.imagenmini{
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    padding: 10px;
+    max-inline-size: 100%;
+}
+*/
+.piefoto{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.piefoto a{
+    text-decoration: none;
+    color: yellow;
+    text-decoration: underline;
+}
+
+/*
+.noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.noticias img{
+    width: 90%;
+    height: auto;
+    margin: 30px;
+    max-inline-size: 100%;
+
+}
+*/
+
+.formulario{
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    max-height: 1000px;
+    background-image: url(./img/fondonegro.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: grid;
+    padding-bottom: 30px;
+
+}
+
+.tituloformulario{
+    font-size: 2rem;
+    text-align: center;
+}
+.infoformulario{
+    justify-content: center;
+    justify-items: center;
+    font-size: 10px;
+    display: grid;
+    align-items: center;
+
+}
+
+/*
+.contenedor2{
+    color: yellow;
+    background-image: url(../img/fondonegro.jpg);
+    display: flex;
+    height: 60px;
+    max-inline-size: 100%;
+}
+*/
+
+footer{
+    background-image: url(./img/fondonegro.jpg);
+}
+
+
+.logo{
+    padding-top: 5px;
+    width: 75px; 
+    height: 40px;
+
+}
+/*
+
+footer h2{
+    margin:auto;
+    width: 10vw;
+    font-size: 15px;
+    max-inline-size: 100%;
+
+}
+
+
+.p{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 10vw;
+    font-size: 15px;
+    max-inline-size: 100%;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: yellow;
+    text-decoration: underline;
+    font-size: 15px;
+    max-inline-size: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
