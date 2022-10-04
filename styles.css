@@ -5,14 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     ;
 }
-/*
-.titulo {
-    color:yellow;
-    align-items: center;
-    display: flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-*/
+
 ul {
     list-style: none;
 }
@@ -58,16 +51,6 @@ background-image: url(./img/21.jpg);
     color: black;
 }
 
-
-/*
-
-section video{
-
-    margin-top: 20px;
-    height: 500px;
-    width: 400px;
-    }
-*/
     .c-blanco{
         color: white;
     }
@@ -122,6 +105,108 @@ height: 500px;
     color: royalblue;
 }
 
+
+.tira {
+    justify-content: center;
+    text-align: center;
+    margin: 50px; 
+}
+
+section p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+
+main section h3{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.titulominis{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.piefoto{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.piefoto a{
+    text-decoration: none;
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+.formulario{
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    max-height: 1000px;
+    background-image: url(./img/fondonegro.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: grid;
+    padding-bottom: 30px;
+
+}
+
+.tituloformulario{
+    font-size: 2rem;
+    text-align: center;
+}
+.infoformulario{
+    justify-content: center;
+    justify-items: center;
+    font-size: 10px;
+    display: grid;
+    align-items: center;
+
+}
+
+
+
+footer{
+    background-image: url(./img/fondonegro.jpg);
+}
+
+
+.logo{
+    padding-top: 5px;
+    width: 75px; 
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
+/* ---  CSS Anterior----
+
+.titulo {
+    color:yellow;
+    align-items: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*/
+
+
+
 /*
 header nav {
     background-image: url(./img/fondonegro.jpg);
@@ -172,39 +257,15 @@ header a:hover {
 
 */
 
+/*
 
+section video{
 
-
-
-
-.tira {
-    justify-content: center;
-    text-align: center;
-    margin: 50px; 
-}
-
-section p{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-}
-
-
-main section h3{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 15px;
-}
-
-
-.titulominis{
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    }
+*/
 /*
 .imagenmini{
     justify-content: center;
@@ -214,17 +275,6 @@ main section h3{
     max-inline-size: 100%;
 }
 */
-.piefoto{
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-}
-
-.piefoto a{
-    text-decoration: none;
-    color: yellow;
-    text-decoration: underline;
-}
 
 /*
 .noticias{
@@ -247,32 +297,6 @@ main section h3{
 }
 */
 
-.formulario{
-    margin: auto;
-    width: 90%;
-    max-width: 500px;
-    max-height: 1000px;
-    background-image: url(./img/fondonegro.jpg);
-    border-radius: 10px;
-    margin-top: 10px;
-    display: grid;
-    padding-bottom: 30px;
-
-}
-
-.tituloformulario{
-    font-size: 2rem;
-    text-align: center;
-}
-.infoformulario{
-    justify-content: center;
-    justify-items: center;
-    font-size: 10px;
-    display: grid;
-    align-items: center;
-
-}
-
 /*
 .contenedor2{
     color: yellow;
@@ -282,20 +306,7 @@ main section h3{
     max-inline-size: 100%;
 }
 */
-
-footer{
-    background-image: url(./img/fondonegro.jpg);
-}
-
-
-.logo{
-    padding-top: 5px;
-    width: 75px; 
-    height: 40px;
-
-}
 /*
-
 footer h2{
     margin:auto;
     width: 10vw;
@@ -303,8 +314,6 @@ footer h2{
     max-inline-size: 100%;
 
 }
-
-
 .p{
     margin: auto;
     justify-content: center;
@@ -312,9 +321,7 @@ footer h2{
     width: 10vw;
     font-size: 15px;
     max-inline-size: 100%;
-
 }
-
 footer a {
     text-decoration: none;
     color: yellow;
