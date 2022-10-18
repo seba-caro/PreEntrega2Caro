@@ -1,0 +1,25 @@
+.formulario{
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    max-height: 1000px;
+    background-image: url(./img/fondonegro.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: grid;
+    padding-bottom: 30px;
+
+}
+
+.tituloformulario{
+    font-size: 2rem;
+    text-align: center;
+}
+.infoformulario{
+    justify-content: center;
+    justify-items: center;
+    font-size: 10px;
+    display: grid;
+    align-items: center;
+
+}
