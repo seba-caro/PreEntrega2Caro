@@ -166,4 +166,7 @@ section p {
   text-decoration: underline;
 }
 
+.collapsetheme {
+  background-image: url(./img/fondoverde.jpg);
+}
 /*# sourceMappingURL=styles.css.map */
