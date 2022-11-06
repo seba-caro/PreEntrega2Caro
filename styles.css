@@ -4,10 +4,9 @@ footer {
 
 .logo {
   padding-top: 5px;
-  width: 75px;
-  height: 40px;
+  height: 45px;
+  margin-left: 46%;
 }
-
 .formulario {
   margin: auto;
   width: 90%;
@@ -129,7 +128,7 @@ main {
 .imagenes {
   width: 500px;
   height: 300px;
-  max-inline-size: 95%;
+  max-inline-size: 90%;
   padding: 5px;
 }
 
@@ -178,4 +177,10 @@ section p {
 .collapsetheme {
   background-image: url(./img/fondoverde.jpg);
 }
+
+.imgfix{
+  width: auto;
+}
+
+
 /*# sourceMappingURL=styles.css.map */
