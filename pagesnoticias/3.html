@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
     <title>Handball Defensa y Justicia Pagina Oficial</title>
 </head>
 <body>
@@ -14,8 +15,8 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">DEFENSA Y JUSTICIA HANDBALL</a>
-                <img class="d-flex" src="./img/escudo.png" alt="" width="50" height="50">
+                <a class="navbar-brand transicionnav" href="#">DEFENSA Y JUSTICIA HANDBALL</a>
+                <img class="d-flex" src="../img/escudo.png" alt="" width="50" height="50">
                 <button class="navbar-toggler align-items-lg-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -23,17 +24,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto ms-2 mb-lg-0 align-items-center">
                     <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./pages/categorias.html">Categorias</a>
+                    <a class="nav-link" aria-current="page" href="../pages/categorias.html">Categorias</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="./pages/elclub.html">El club</a>
+                    <a class="nav-link" href="../pages/elclub.html">El club</a>
                     </li>
                     <li class="nav-item ">
-                    <a class="nav-link" href="./pages/fixture.html">Fixture</a>
+                    <a class="nav-link" href="../pages/fixture.html" >Fixture</a>
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/noticias.html">Noticias</a>
+                        <a class="nav-link" href="../index.html" >Inicio</a>
     
                         </li>
 
@@ -43,78 +44,92 @@
             </div>
             </nav>
     </header>
+    
+    <main class="bg-image">
 
-    <main>
-        <section class="container-fluid">
-            <div>
-                <h1 class="d-flex c-color justify-content-center align-items-md-center f-size p-2">PAGINA OFICIAL DEL HANDBALL DEFENSA Y JUSTICIA</h1>
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
-            </div>
+        <div>
+            <h1 class="c-ama">NOTICIAS</h1>
+                        <div class=" col-md-12"  data-pagina="1">
+                                            <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                <p class="c-blanco">NOVIEMBRE</p>
+                                <p class="c-blanco"><span>2022</span></p>
+                          </div>
+                                            <div class="col-md-6 col-sm-6 bg-light p-4" data-id="2104">
+                                                <h2>2022-11-08</h2>
+                            <a href="http://www.defensayjusticia.org.ar/noticias/2104"><span class="bg-warning c-verde">¡Handball a la Liga de Honor Oro!</span></a>
+                                                <p class="p-2">¡A la Liga de Honor Oro! Por la 13va fecha de la Liga de Honor Plata, Defensa venció a SAG Lomas B por 35 a 21 y logró el ansiado ascenso a la Liga de Honor Oro.</p>
+                        </div>
+                    </div>
+
+</div>
+
+
+
+
+
+                    </div>
+
+
+        <section class="p-3">
+            <div class=" container-fluid formulario c-blanco">
+                <h2 class="tituloformulario">Contacto</h2>
+                <form class="infoformulario" action="">
+                    <label for="">Nombre y apellido</label>
+                    <input type="text">
+    
+    
+                    <label for="">Ingrese su mail</label>
+                    <input type="email">
+    
+                    <label for="">Ingrese su fecha de nacimiento</label>
+                    <input type="date">
+    
+                    <label for="">Desea recibir noticias?</label>
+                    <input type="checkbox">
+    
+                    <label for="">Desea recibir informacion para empezar a jugar?</label>
+                    <input type="checkbox" value="si-noticias">
+    
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="reset formulario">
+    
+                </form>
+                        </div>
 
         </section>
-        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner p-3">
-                <div class="carousel-item active">
-                <video src="./video/video1.mp4" class=" d-block w-100" controls autoplay></video>
-                </div>
-                <div class="carousel-item">
-                <video src="./video/video1.mp4" class="d-block w-100" controls autoplay ></video>
-                </div>
-                <div class="carousel-item">
-                <video src="./video/video1.mp4" class="d-block w-100" controls autoplay></video>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
 
-            <section>
-                <h1 class="d-flex justificado c-blanco f-size20p m-0 p-3 align-items-center justify-content-center">"Es difícil aceptar la injusticia muchachos. Yo sé que ahora nada los serena, porque se mataron por el partido, lo merecieron y no lo consiguieron. Aunque les resulte imposible, no reclamen nada. Traguen veneno. Fortalézcanse que jugando así van a obtener lo que merecen". Marcelo Bielsa
-                    <img class=" imgfix d-flex align-items-center justify-content-center imagenes" src="./img/bielsa.png" alt="">
-                </h1>
-
-            </section>
     </main>
-
 
     <footer class="container-fluid c-blanco">
         <div class="row p-3">
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <img class="logo" src="./img/logotelefono.png" alt="">
+                <img class="logo" src="../img/telefonologo.jpg" alt="">
                 <h2 class="d-flex justify-content-center align-items-center f-size20p">Telefono:</h2>
                 <p class="d-flex justify-content-center align-items-center"> <a href="Tel:+541165118869">Contacto</a></p>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <img class="logo" src="./img/logotwitter.png" alt="">
+                <img class="logo" src="../img/twitterlogo.jpg" alt="">
                 <h2 class="d-flex justify-content-center align-items-center f-size20p">Twitter:</h2>
                 <p class="d-flex justify-content-center align-items-center"> <a href="https://twitter.com/hdefensa?lang=es" target="_blank">HDefensa</a></p>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <img class="logo" src="./img/logoig.png" alt=""> 
+                <img class="logo" src="../img/instragramlogo.jpg" alt=""> 
                 <h2 class="d-flex justify-content-center align-items-center f-size20p">Instagram</h2>
                 <p class="d-flex justify-content-center align-items-center"> <a href="https://www.instagram.com/hdefensa/" target="_blank">HDefensa</a></p>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <img class="logo" src="./img/logoubi.png" alt=""> 
+                <img class="logo" src="../img/logoubicacion.png" alt=""> 
                 <h2 class="d-flex justify-content-center align-items-center f-size20p">Ubicacion:</h2>
                 <p class="d-flex justify-content-center align-items-center"><a href="https://goo.gl/maps/5agtQDJopsEbSMpe6" target="_blank">Bourel 2345. Florencio Varela</a></p>
             </div>
-
         </div>
-
         </footer>
 
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
     </body>
     </html>
-

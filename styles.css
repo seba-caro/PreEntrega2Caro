@@ -54,12 +54,16 @@ nav {
 }
 
 video {
-  height: 500px;
+  height: auto;
   width: 50%;
 }
 
 .c-color {
   color: lightcyan;
+}
+
+.c-verde{
+  color: green;
 }
 
 .c-ama{
@@ -130,6 +134,37 @@ main {
   height: 300px;
   max-inline-size: 90%;
   padding: 5px;
+}
+
+.imgsponsor{
+  height: 200px;
+  padding-left: 50px;
+  margin-left: 100px;
+  width: auto;
+  padding: 5px;
+}
+
+.imgsponsordia{
+  height: 200px;
+padding-left: 50px;
+margin-left: 40px;
+width: auto;
+padding: 5px;
+}
+
+.imgsponsorcimes{
+  height: 150px;
+  padding-left: 50px;
+  width: auto;
+  padding: 5px;
+  margin-left: 45px;
+}
+.imgsponsorfeme{
+height: 200px;
+padding-left: 50px;
+margin-left: 90px;
+width: auto;
+padding: 5px;
 }
 
 .hoverimagenes:hover {
