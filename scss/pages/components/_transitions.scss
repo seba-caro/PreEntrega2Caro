@@ -13,6 +13,6 @@
     &.collapse-horizontal {
         width: 0;
         height: auto;
-          @include transition($transition-collapse-width);
+            @include transition($transition-collapse-width);
     }
     }
